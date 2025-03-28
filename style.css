@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    color: #ffffff;
+    box-sizing: border-box;
+    background: #101116;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('1194785.jpg'); /* Replace with your image */
+    background-size: cover;   /* Ensures the image covers the entire screen */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    background-attachment: fixed;  /* Keeps it fixed while scrolling */
+    height: 100vh; /* Ensures full viewport height */
+    width: 100vw; 
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Fixes mobile scaling issue */
+    }
+}
